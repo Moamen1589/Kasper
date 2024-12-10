@@ -20,6 +20,15 @@ document.addEventListener('DOMContentLoaded', () => {
     })
 })
 
+// show menu when clicked om toggle menu
+let icon = document.querySelector('.toggle-menu')
+let menu = document.querySelector('nav ul ')
+
+icon.addEventListener('click', () => {
+    menu.classList.toggle('show')
+})
+
+
 
 //   show video when clicked
 
